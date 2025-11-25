@@ -9,8 +9,8 @@ interface ConnectViewProps {
 
 export const ConnectView: React.FC<ConnectViewProps> = ({ onConnect }) => {
   const [activeTab, setActiveTab] = useState<'postgres' | 'csv'>('postgres');
-  // Default to a placeholder to avoid committing secrets
-  const [connectionString, setConnectionString] = useState('postgresql://user:password@localhost:5432/dbname');
+  // Use environment variable for default connection string if available, otherwise use placeholder
+  const [connectionString, setConnectionString] = useState(process.env.DATABASE_URL || 'postgresql://user:password@localhost:5432/dbname');
   const [isLoading, setIsLoading] = useState(false);
 
   const handleConnect = () => {
