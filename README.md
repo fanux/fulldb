@@ -6,6 +6,9 @@
 ![Status](https://img.shields.io/badge/status-MVP-blue)
 ![Stack](https://img.shields.io/badge/tech-React%20%7C%20Gemini%20API%20%7C%20Tailwind-00FF41)
 
+<img width="3014" height="1504" alt="image" src="https://github.com/user-attachments/assets/a2151e18-aed0-46f8-bcd3-e8fa148eeca7" />
+
+
 ## 1. 愿景 (Vision)
 
 **NEXUS // INSIGHT** 是一款以 AI 为核心驱动的轻量级商业智能（BI）工具。它并非传统笨重的数据管理软件，而是一把为创业者和产品经理打造的数据分析“瑞士军刀”。
